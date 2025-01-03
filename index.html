@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="calculator">
+            <h2>Simple Calculator</h2>
+            <label for="operation">Select Operation:</label>
+            <select id="operation">
+                <option value="1">Addition</option>
+                <option value="2">Subtraction</option>
+                <option value="3">Dividision</option>
+                <option value="4">Multiplication</option>
+            </select>
+
+                <input type="number" id="num1" placeholder="Enter first number">
+                <input type="number" id="num2" placeholder="Enter second number">
+
+                <button onclick="calculate()">Calculate</button>
+                <div class="result" id="result"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+
+
